@@ -11,6 +11,8 @@ const bookingRoutes = require('./routes/booking.routes');
 
 const errorMiddleware = require('./middleware/error.middleware');
 
+
+
 const app = express();
 app.use(express.json());
 
